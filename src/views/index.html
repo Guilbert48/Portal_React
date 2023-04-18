@@ -12,10 +12,10 @@
     <title>Document</title>
 </head>
 <body>
-  <aside class="menu white-bg">
+  <aside class="menu white-bg down">
     <section class="main-content menu-content img-class">
       <a href="/"><h1><img src="../../assets/img/logoSemFundo.png" alt="logo"></h1></a>
-      <h6>Rede de Ciência e tecnologia</h6>
+      <h6>Rede de Aplicação de ciência e tecnologia</h6>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
@@ -25,14 +25,44 @@
       </nav>
     </section>
   </aside>
-</section>    
-<section class="section white-bg"></section>
-<section class="section blue-bg"></section>
-<section class="main-bg bg-escuro blue-bg section">
-  <div class="main-content">
-    <a href="/"><h1>React</h1></a>
-    <h3>Rede de ciência e tecnologia</h3>
+
+<div class="container">
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <div class="slide first">
+        <img src="../../assets/img/OqueEaReact.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="../../assets/img/OqueEaReact.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="../../assets/img/OqueEaReact.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="../../assets/img/OqueEaReact.jpg" alt="">
+      </div>
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+
+    </div>
   </div>
+</div>    
+<section class="section"></section>
     <script src="./assets/js/bundle.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

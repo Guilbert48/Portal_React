@@ -70,7 +70,7 @@ h1{
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: 2px solid var(--light-gray-collor);
+  border-bottom: 0.02px solid var(--light-gray-collor);
 }
 .menu h1{
   color: var(--primary-collor);
@@ -116,6 +116,36 @@ menu h1 a{
   width: 250px;
   height: 70px;
 }
+.down{
+  display: block;
+}
 
+/*
+  Slider
+*/
+.container{
+  display: flex;
+  justify-content: center;
+}
+.slider{
+  padding-top: 10rem;
+  width: 100rem;
+  height: 60rem;
+  overflow: hidden;
+}
+.slides{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.slides input{
+  display: none;
+}
 
-
+.slide img{
+  width: 100rem;
+  height: 100%;
+}
+.manual-navigation{
+  position: absolute;
+}
